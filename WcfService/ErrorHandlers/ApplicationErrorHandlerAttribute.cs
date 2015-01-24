@@ -3,7 +3,7 @@ using System.Linq;
 using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
 
-namespace WcfService.Utility
+namespace WcfService.ErrorHandlers
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public sealed class ApplicationErrorHandlerAttribute : Attribute, IServiceBehavior

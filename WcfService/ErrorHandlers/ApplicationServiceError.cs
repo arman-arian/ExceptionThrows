@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace WcfService.Utility
+namespace WcfService.ErrorHandlers
 {
     [DataContract(Name = "ServiceError")]
     public class ApplicationServiceError

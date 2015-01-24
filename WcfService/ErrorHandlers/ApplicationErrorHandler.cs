@@ -2,8 +2,9 @@
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Dispatcher;
+using WcfService.Utility;
 
-namespace WcfService.Utility
+namespace WcfService.ErrorHandlers
 {
     public sealed class ApplicationErrorHandler : IErrorHandler
     {

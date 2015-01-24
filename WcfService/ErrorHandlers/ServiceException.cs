@@ -1,7 +1,8 @@
 ﻿using System;
 using System.ServiceModel;
+using WcfService.Utility;
 
-namespace WcfService.Utility
+namespace WcfService.ErrorHandlers
 {
     public class ServiceException : FaultException<ApplicationServiceError>
     {

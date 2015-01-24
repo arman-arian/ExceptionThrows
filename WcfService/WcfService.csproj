@@ -72,12 +72,12 @@
     <Compile Include="TestService.svc.cs">
       <DependentUpon>TestService.svc</DependentUpon>
     </Compile>
-    <Compile Include="Utility\ApplicationErrorHandler.cs" />
-    <Compile Include="Utility\ApplicationErrorHandlerAttribute.cs" />
-    <Compile Include="Utility\ApplicationServiceError.cs" />
+    <Compile Include="ErrorHandlers\ApplicationErrorHandler.cs" />
+    <Compile Include="ErrorHandlers\ApplicationErrorHandlerAttribute.cs" />
+    <Compile Include="ErrorHandlers\ApplicationServiceError.cs" />
     <Compile Include="Utility\ErrorMessages.cs" />
     <Compile Include="Utility\ExtensionMethods.cs" />
-    <Compile Include="Utility\ServiceException.cs" />
+    <Compile Include="ErrorHandlers\ServiceException.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

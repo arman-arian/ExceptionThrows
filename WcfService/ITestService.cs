@@ -1,4 +1,5 @@
 ﻿using System.ServiceModel;
+using WcfService.ErrorHandlers;
 using WcfService.Utility;
 
 namespace WcfService
