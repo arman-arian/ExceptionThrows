@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{A88FB1AE-001A-41EF-AF9F-E74719717E2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{21E95419-EEF1-4974-A1F2-EE8F406A2CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{09E4DF73-EB36-45E3-AC84-479177CAF41A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormTest", "WinFormTest\WinFormTest.csproj", "{7637403F-8CAD-4D2A-94A8-CAB28C41D5BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F} = {A88FB1AE-001A-41EF-AF9F-E74719717E2F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm", "WinForm", "{965962F7-3437-427E-B2F4-3E950015CAFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverlight", "Silverlight", "{7EFCBA5F-F372-4343-B4C1-D7375A403F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplicationTest", "SilverlightApplicationTest\SilverlightApplicationTest.csproj", "{31F4CCCA-9719-46DC-AAAB-2AFFDB1FC703}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F} = {A88FB1AE-001A-41EF-AF9F-E74719717E2F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplicationTest.Web", "SilverlightApplicationTest.Web\SilverlightApplicationTest.Web.csproj", "{0339B5DE-5847-4493-B7E6-1BA31153271B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7637403F-8CAD-4D2A-94A8-CAB28C41D5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7637403F-8CAD-4D2A-94A8-CAB28C41D5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7637403F-8CAD-4D2A-94A8-CAB28C41D5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7637403F-8CAD-4D2A-94A8-CAB28C41D5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F4CCCA-9719-46DC-AAAB-2AFFDB1FC703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F4CCCA-9719-46DC-AAAB-2AFFDB1FC703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F4CCCA-9719-46DC-AAAB-2AFFDB1FC703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F4CCCA-9719-46DC-AAAB-2AFFDB1FC703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0339B5DE-5847-4493-B7E6-1BA31153271B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0339B5DE-5847-4493-B7E6-1BA31153271B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0339B5DE-5847-4493-B7E6-1BA31153271B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0339B5DE-5847-4493-B7E6-1BA31153271B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A88FB1AE-001A-41EF-AF9F-E74719717E2F} = {21E95419-EEF1-4974-A1F2-EE8F406A2CF1}
+		{7637403F-8CAD-4D2A-94A8-CAB28C41D5BD} = {965962F7-3437-427E-B2F4-3E950015CAFC}
+		{965962F7-3437-427E-B2F4-3E950015CAFC} = {09E4DF73-EB36-45E3-AC84-479177CAF41A}
+		{7EFCBA5F-F372-4343-B4C1-D7375A403F9D} = {09E4DF73-EB36-45E3-AC84-479177CAF41A}
+		{31F4CCCA-9719-46DC-AAAB-2AFFDB1FC703} = {7EFCBA5F-F372-4343-B4C1-D7375A403F9D}
+		{0339B5DE-5847-4493-B7E6-1BA31153271B} = {7EFCBA5F-F372-4343-B4C1-D7375A403F9D}
+	EndGlobalSection
+EndGlobal
